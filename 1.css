@@ -1,3 +1,4 @@
+
 table{
     margin: auto;
 }
@@ -9,26 +10,23 @@ table{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    border: 1px solid black;
+    border: 3px solid black;
+    background-color: aqua;
 }
 #script{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    border: 1px solid black;
+    border: 3px solid black;
+    background-color: aqua;
 }
-#remark{
-    width:400px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    border: 1px solid black;
-}
+
 table{
-    border: 1px solid black;
+    border: 3px solid black;
 }
 td.cot{
-    border: 1px solid black; 
+    border: 3px solid black;
+    font-weight: bold; 
 }
 .chu{
     font-size: 20px;
@@ -49,8 +47,9 @@ video{
     display: block;
 }
 @media (max-width:1000px){
-    #script1{
-    width:400px;
+    video{
+    width:200px;
+    height: 300px;
 }
 }
 .g-comments{
