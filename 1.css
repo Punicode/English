@@ -1,0 +1,50 @@
+table{
+    margin: auto;
+}
+#script1{
+    width:400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#video{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+#script{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+#remark{
+    width:400px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+}
+td.cot{
+    border: 1px solid black; 
+}
+.chu{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+#nut{
+    font-weight: bold;
+    transition: 0.4s;
+}
+#nut:hover{
+    background-color: aqua;
+}
+video{
+    margin: auto;
+    text-align: center;
+    display: block;
+}

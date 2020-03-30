@@ -4,26 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English</title>
+    <link rel="stylesheet" href="1.css">
 </head>
 <body>
     <table>
         <tr>
-            <td>Video</td>
-            <td>Script</td>
+            <td id="video">Video</td>
+            <td id="script">Script</td>
+            <td id="remark">Remark</td>
         </tr>
         <tr>
-            <td><video controls>
-                <source src="describe the person I love the most.mp4">
-            </video></td>
-            <td style="width:400px">Hello, my name is Tuan, Today it is windy, sunny, I can see white clouds in the sky, Specially,I feel very happy, so I
-            will introduce you about a person, I love the most. This is my mother, She general looks really beautifull, why can I
-            say that, because, My mother has got shoulder-length black hair, when she was young, she had pigtails hair, it was very
-            beautifull and cute.Her eyes is black and attractive. Moreover she has oval face with bright skin. She quite thin, she
-            weighs about 40 kilos, She is not so tall, her height about 1.5 meters,She is a good person, she always helps people
-            overcome difficulties, so people love my mother so much, of course my mother love people too, she is not only kind but
-            also she is hard working, she takes care of her family carly. She always does nice everything for me, so I love mother
-            much too. That is all, I can say about my mother for you, thank you for listening.</td>
+            <td class="cot">
+                <div class="chu">Describe a person I admire</div>
+                <video src="describe the person I admire1.mp4" width="250px" height="300px" controls>
+                </video>
+            </td>
+            <td id="script1"class="cot"> 
+                Hello, It is me again. Last time, I told about my mother, the person I love the most, Today is good day, I feel
+                powerful, Now, I would like to share some the traits of the person I admire. This is my father.My father has normal
+                appearance , he has got short black hair and square face, he is not so tall, his height about is 1.6m, he is quite fat ,
+                he weighs about 60kg. he is a good person, he is funny and sociable, he usually hangs out with his friends. He has many
+                friends, they usually come to my house, they talk very happy. My father is a humorous person, he often jokes width
+                grandchildren, sometimes he tells some funny stories for his family. However, he is serious, he is always focus on the
+                work, so he doesn’t like to be. Many people ake me that: Why do you admire your father, I just laugh and say that: This
+                is my father, and I love my father so much. That is all my talk, Thank you for listening.
+            </td>
+            <td>
+                <textarea id="text" id="" cols="60" rows="25"placeholder="Enter your remark...">
+                </textarea>
+                <input type="button"value="Send"id="nut"onclick="hienthi()">
+            </td>
         </tr>
     </table>
+    <script src="1.js"></script>
 </body>
 </html>
