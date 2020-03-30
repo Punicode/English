@@ -48,3 +48,8 @@ video{
     text-align: center;
     display: block;
 }
+@media (max-width:1000px){
+    #script1{
+    width:400px;
+}
+}
